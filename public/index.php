@@ -6,7 +6,7 @@ require_once('../includes/user.php');
 
 
 $record = User::find_by_id(1);
-echo $user -> full_name();
+echo $record -> full_name();
 
 echo "<hr />";
 

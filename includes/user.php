@@ -4,7 +4,7 @@ require_once('database.php');
 
 class User {
 
-    public $di;
+    public $id;
     public $username;
     public $password;
     public $first_name;
@@ -49,7 +49,7 @@ class User {
             }
         }
         
-        return object;
+        return $object;
     }
     
     private function has_attribute($attribute) {
