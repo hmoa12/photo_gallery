@@ -47,7 +47,8 @@ a { color: #8D0D19 }
 #footer {
     height: 2em;
     padding: 1em;
-    text-align: center;
+    text-align: left;
+    color:red;
 }
 
 table.bordered tr th, table.bordered tr td {
